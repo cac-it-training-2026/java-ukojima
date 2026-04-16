@@ -10,7 +10,21 @@ public class Question05_2 {
 
 	public static void main(String[] args) throws IOException {
 
-		// TODO:ここに実装
+		int[] numberGroup = { 3, 5, 7, 9, };
 
+		int n = 4;
+
+		if (numberGroup[n - 1] == 3) {
+			System.out.println("4番目の要素の値は3です。");
+
+		} else if (numberGroup[n - 1] == 5) {
+			System.out.println("4番目の要素の値は5です。");
+
+		} else if (numberGroup[n - 1] == 7) {
+			System.out.println("4番目の要素の値は7です。");
+
+		} else {
+			System.out.println("4番目の要素の値は3、5、7、以外の値です。");
+		}
 	}
 }
